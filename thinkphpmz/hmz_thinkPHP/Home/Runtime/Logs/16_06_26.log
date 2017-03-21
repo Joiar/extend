@@ -1,0 +1,13 @@
+[ 2016-06-26T08:58:02+08:00 ] ERR: (ThinkException) 非法操作:js
+[ 2016-06-26T08:58:02+08:00 ] ERR: (ThinkException) 非法操作:js
+[ 2016-06-26T08:58:02+08:00 ] ERR: (ThinkException) 非法操作:css
+[ 2016-06-26T08:58:02+08:00 ] ERR: (ThinkException) 非法操作:css
+[ 2016-06-26T09:01:47+08:00 ] ERR: (ThinkException) 非法操作:js
+[ 2016-06-26T09:01:47+08:00 ] ERR: (ThinkException) 非法操作:images
+[ 2016-06-26T09:01:54+08:00 ] ERR: (ThinkException) 非法操作:js
+[ 2016-06-26T09:01:54+08:00 ] ERR: (ThinkException) 非法操作:images
+[ 2016-06-26T09:02:15+08:00 ] ERR: (ThinkException) 非法操作:js
+[ 2016-06-26T09:02:15+08:00 ] ERR: (ThinkException) 非法操作:images
+[ 2016-06-26T09:22:23+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/reguser.html]
+[ 2016-06-26T09:28:00+08:00 ] ERR: (ThinkException) 非法操作:dologout
+[ 2016-06-26T09:50:45+08:00 ] ERR: (ThinkException) 非法操作:rl

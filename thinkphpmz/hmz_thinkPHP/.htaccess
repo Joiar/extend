@@ -1,0 +1,10 @@
+#htaccess是一个纯文本文件，它里面存放着Apache服务器配置相关的指令。
+# htaccess主要的作用有：URL重写、自定义错误页面、MIME类型配置以及访问权限控制等。
+#主要体现在伪静态的应用、图片防盗链、自定义404错
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>
+

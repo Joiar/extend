@@ -1,0 +1,23 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <div>
+            <img src="__PUBLIC__/image/logo.gif"/>
+        </div>
+        <div>
+            <if condition="empty($_SESSION['curUser'])">
+                您尚未<a href="__URL__/login">登录</a>&nbsp;|&nbsp;<a href="__URL__/reguser">注册</a>
+            <else/>
+                您好：<a href="__URL__/userdetail"><{$Think.session.curUser.uName}></a>&nbsp;|&nbsp;<a href="__URL__/doLogout">登出</a>
+            </if>
+        </div>
+    </body>
+</html>
